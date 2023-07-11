@@ -150,7 +150,7 @@ var gokuFirstSon = "Son Gohan"
  */
 
 var ageValue = 20
-var gokuAge: String = "\(ageValue)"    // Esto es un cast de string a int 
+var gokuAge: String = "\(ageValue)"    // Esto es un cast de int a string
 var age = Int(gokuAge)
 
 // Verificar de qué tipo de dato es una variable con is
@@ -160,7 +160,7 @@ gokuAge is String
 
 
 // -------------------------------------------------
-//          Mis variables y mis pruevas
+//          Mis variables y mis pruebas
 // -------------------------------------------------
 
 var tuplaSegura: (String, Int)
