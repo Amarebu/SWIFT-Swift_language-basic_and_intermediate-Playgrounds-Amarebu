@@ -23,6 +23,7 @@ import UIKit
 var gokuName: String?
 var gohanName: String? = "Gohan"
 
+
 // MARK: - [NO RECOMENDADO] FORZAR UNWRAPPED/DESEMPAQUETADO [NO RECOMENDADO]
 /* Se puede forzar el desempaquetado de un valor de tipo opcional, que, salvo en contadas
  ocasiones, nunca deberíamos utilizar. Los valores de tipo opcional se crearon para evitar
@@ -74,6 +75,10 @@ if let gohanName = gohanName {
     print(gohanName.count)
 }
 
+if let gohanName = gohanName {
+    print(gohanName)
+}
+
 if let gohanNameCount = gohanName?.count {
     print(gohanNameCount)
 }
@@ -119,3 +124,6 @@ if let gohanNameCount = gohanName?.count {
  tipo no opcional Int
  */
 var gokuNameCharsCount = gokuName?.count ?? 0
+
+
+
