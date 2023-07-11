@@ -81,5 +81,6 @@ switch gohanPower {
  - Ejemplo: CONDICIÓN_LÓGICA ?  (TRUE)CÓDIGO_EJECUTAR : (FALSE)CÓDIGO_EJECUTAR
  */
 let freezerIsVillain = true
+// Operador terminario (condicion) ? true : false
 let freezerCondition = freezerIsVillain ? "Freezer is a Villain" : "Freezer isn't a Villain"
 print(freezerCondition)

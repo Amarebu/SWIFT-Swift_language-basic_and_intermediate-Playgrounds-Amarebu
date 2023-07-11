@@ -155,3 +155,14 @@ String(format: "The Dragon Ball anime series was created by %@ on %d and has mor
        dragonBallDate,
        dragonBallCharactersCount
 )
+
+// -------------------------------------------------
+//          Mis pruebas
+// -------------------------------------------------
+
+let angle = 45.67
+let raw = "Angle: \(angle) "
+let formateAngle = String(format: "Angle:: %.2f" , angle)
+
+
+
