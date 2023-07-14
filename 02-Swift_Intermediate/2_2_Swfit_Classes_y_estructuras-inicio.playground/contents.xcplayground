@@ -3,5 +3,6 @@
     <pages>
         <page name='CLASES_y_STRUCTS'/>
         <page name='EjemploContruct'/>
+        <page name='ejemploClase'/>
     </pages>
 </playground>
