@@ -36,6 +36,7 @@ enum FightError: Error {
     case emptyWinner
 }
 
+// Esto es un tipo genérico
 func battle<T>(between fighter: T?, vs fighter2: T?) throws -> T {
     guard let fighter = fighter,
           let fighter2 = fighter2 else {
